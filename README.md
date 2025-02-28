@@ -25,15 +25,6 @@ pip install torch-scatter==2.0.6 -f https://pytorch-geometric.com/whl/torch-1.7.
 pip install torch-geometric==1.6.3
 ```
 
-## Run
-Training and testing our MFGCN model with the following commands:
-
-```shell
-cd code
-python MFGCN.py --gpu-no 0 --dataset DawnNet
-```
-Note: In CPU computing scenarios, please assignment '-1' to '--gpu-no' parameter
-
 ## Result
 The output of our model is supplied at './code/result/', which consist with two variates 'logits' and 'acc'.
 The probability of each gene is non-cancer driver gene (the first column) or cancer driver gene (the second column) have been stored in 'logits', and the mean accuracy of 5-CV are in 'acc'
