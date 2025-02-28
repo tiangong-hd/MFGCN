@@ -23,6 +23,7 @@ Besides, torch-scatter and torch-sparse are required for dealing with sparse gra
 pip install torch-sparse==0.6.8 -f https://pytorch-geometric.com/whl/torch-1.7.1+cu110.html
 pip install torch-scatter==2.0.6 -f https://pytorch-geometric.com/whl/torch-1.7.1+cu110.html
 pip install torch-geometric==1.6.3
+```
 
 ## Run
 Training and testing our MFGCN model with the following commands:
